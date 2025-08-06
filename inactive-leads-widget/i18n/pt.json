@@ -1,0 +1,19 @@
+{
+  "widget": {
+  "name": "Gerenciador de leads inativos",
+  "description": "Widget responsável pela análise de leads que estão a 5 dias ou mais sem contato e sem nenhum tipo de tarefa, tornando-se propícios a serem esquecidos",
+  "short_description": "gerencia e analisa leads que estão sem contato",
+   "tour_description":"Identifique e gerencie automaticamente leads inativos há mais de 5 dias, sem contato ou tarefas pendentes."
+  },
+     "settings":{
+        "login":"Nome de usuário",
+        "api_key":"Chave API",
+        "account":"Conta"
+    }
+
+ 
+
+  }
+  
+
+  

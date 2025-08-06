@@ -1,0 +1,61 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.0",
+    "interface_version": 2,
+    "init_once": false,
+    "author": "Gustavo Alves",
+    "locale": ["pt", "en", "es"],
+    "installation": true
+  },
+
+  "locations": {
+    "settings": {
+      "url": "settings.html"
+    },
+    "ccard-1": {},
+    "lcard-1": {}
+  },
+
+  "settings": {
+    "login": {
+      "name": "settings.login",
+      "type": "text",
+      "required": true
+    },
+    "api_key": {
+      "name": "settings.api_key",
+      "type": "text",
+      "required": true
+    },
+    "account": {
+      "name": "settings.account",
+      "type": "text",
+      "required": true
+    }
+  },
+
+  "tour": {
+    "is_tour": true,
+    "tour_images": {
+      "pt": [
+        "/images/tour_1_pt.png",
+        "/images/tour_2_pt.png",
+        "/images/tour_3_pt.png"
+      ],
+      "en": [
+        "/images/tour_1_en.png",
+        "/images/tour_2_en.png",
+        "/images/tour_3_en.png"
+      ],
+      "es": [
+        "/images/tour_1_es.png",
+        "/images/tour_2_es.png",
+        "/images/tour_3_es.png"
+      ]
+    },
+    "tour_description": "widget.tour_description"
+  }
+}

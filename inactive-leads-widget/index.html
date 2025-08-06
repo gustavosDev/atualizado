@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciador de Leads Inativos</title>
+  <link rel="stylesheet" href="style.css?v=1.0.0">
+</head>
+
+<body>
+  <div class="inactive-leads-widget">
+    <div class="ilw-container">
+      <h2>📋 Gerenciador de Leads Inativos</h2>
+
+      <div class="ilw-config">
+        <label>Login: <input type="text" id="login" /></label><br>
+        <label>API Key: <input type="text" id="api_key" /></label><br>
+        <label>Account: <input type="text" id="account" /></label><br>
+      </div>
+
+      <button id="ilw-verificar-btn">🔍 Verificar Leads</button>
+      <button id="ilw-criar-tarefa-btn" class="ilw-hidden">📅 Criar Tarefas</button>
+
+      <div id="ilw-loader" class="ilw-hidden">⏳ Carregando...</div>
+      <div id="ilw-resultado"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "widget": {
+  "name": "Inactive Lead Manager",
+  "description": "Widget responsible for analyzing leads that have been without contact and without any type of task for 5 days or more, making them prone to being forgotten",
+  "short_description": "manages and analyzes leads that are without contact",
+   "tour_description":"Automatically identify and manage leads that have been inactive for more than 5 days, with no contact or pending tasks."
+  },
+     "settings":{
+        "login":"User name",
+        "api_key":"API Key",
+        "account":"Account"
+    }
+
+ 
+
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "widget": {
+  "name": "Administrador de leads inactivos",
+  "description": "Widget encargado de analizar leads que llevan 5 días o más sin contacto ni ningún tipo de tarea, siendo propensos a ser olvidados.",
+  "short_description": "Gestiona y analiza leads que no tienen contacto",
+   "tour_description":"Identifique y gestione automáticamente los leads que han estado inactivos durante más de 5 días, sin contacto ni tareas pendientes."
+  },
+     "settings":{
+        "login":"Nombre de usuario",
+        "api_key":"Clave API",
+        "account":"Cuenta"
+    }
+
+ 
+
+  }
+  

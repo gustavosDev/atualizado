@@ -1,0 +1,40 @@
+.inactive-leads-widget {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  padding: 20px;
+}
+
+.inactive-leads-widget .ilw-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.inactive-leads-widget button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.inactive-leads-widget button.ilw-hidden {
+  display: none;
+}
+
+.inactive-leads-widget #ilw-loader {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.inactive-leads-widget .ilw-lead-card {
+  border: 1px solid #ccc;
+  background-color: #eef;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
